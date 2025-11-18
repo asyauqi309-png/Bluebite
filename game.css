@@ -1,0 +1,100 @@
+/* Reset dan dasar */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e6f7ff;
+    color: #003366;
+}
+
+/* Header */
+header {
+    background-color: #0077cc;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-top: 3px;
+}
+
+.header-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Kontainer Game */
+.game-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.points-display {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.points-value {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #0077cc;
+}
+
+/* Aquarium */
+.aquarium {
+    background: linear-gradient(to bottom, #87ceeb, #4682b4);
+    border-radius: 10px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pet-fish {
+    font-size: 3rem;
+    transition: all 0.5s ease;
+}
+
+/* Bagian Tantangan */
+.challenge-section {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.challenge-question {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.options {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
